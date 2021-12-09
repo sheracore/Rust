@@ -21,3 +21,5 @@ cargo build
 ```
 cargo run
 ```
+
+### The other advantage of using Cargo is that the commands are the same no matter what operating system you’re on, so at this point we will no longer be providing specific instructions for Linux and Mac versus Windows.
