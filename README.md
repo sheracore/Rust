@@ -23,3 +23,5 @@ cargo run
 ```
 
 ### The other advantage of using Cargo is that the commands are the same no matter what operating system you’re on, so at this point we will no longer be providing specific instructions for Linux and Mac versus Windows.
+
+### When your project is finally ready for release, you can use ```cargo build --release``` to compile your project with optimizations. This will create an executable in target/release instead of target/debug. These optimizations make your Rust code run faster, but turning them on makesyour program take longer to compile.
